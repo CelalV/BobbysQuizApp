@@ -15,10 +15,10 @@ except Exception:
     BlindPickEditor = None
 
 QUIZ_REGISTRY = {
-    "Blind Pick (Video + Antwortenmix)": BlindPickQuiz
+    "Blind Pick": BlindPickQuiz
 }
 if BlindPickEditor:
-    QUIZ_REGISTRY["Blind Pick — Editor (Runden-Tool)"] = BlindPickEditor
+    QUIZ_REGISTRY["Blind Pick — Editor"] = BlindPickEditor
 
 class StartScreen(QWidget):
     def __init__(self):
