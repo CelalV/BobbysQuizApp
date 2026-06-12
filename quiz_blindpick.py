@@ -391,7 +391,8 @@ class ControlWindow(QMainWindow):
 
         # Mischen & Anzeigen
         ctl = QHBoxLayout()
-        self.btn_shuffle = QPushButton("Mischen & anzeigen")
+        self.btn_shuffle = QPushButton("Mischen und Anzeigen")
+        self.btn_shuffle.setFixedWidth(200)
         ctl.addWidget(self.btn_shuffle)
         root.addLayout(ctl)
 
